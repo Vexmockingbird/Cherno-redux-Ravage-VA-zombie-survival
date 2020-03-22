@@ -1,0 +1,145 @@
+onLoadMission = "test";
+
+
+disabledAI = 1;
+
+respawnOnStart = -1;
+
+wreckManagerMode = 1;
+wreckLimit = 30;
+wreckRemovalMinTime = 900;
+wreckRemovalMaxTime = 1500;
+
+
+
+
+//____________________________________________________
+
+loadScreen =  "";
+overviewPicture = "";
+
+//____________________________________________________
+
+class Header
+{
+ gameType = COOP;
+ minPlayers = 1;
+ maxPlayers = 40;
+};
+
+//____________________________________________________
+
+
+//__________________________ ***  SNOW SOUNDS  *** __________________________
+
+class CfgSounds
+{
+	sounds[] = {};
+		
+	//adjust the volume from db0
+	
+	//__________________________ GF Ambient Environment Winter Script __________________________
+	
+	//__________________________	Animals	__________________________
+	
+	class Animals_1{name = "Animals_1";sound[] = {"GF_Ambient_Environment_Winter\GF_AEW_Sounds\Sounds\Wind\Animals_1.ogg", db0, 1.0};titles[] = {};};
+	class Animals_2{name = "Animals_2";sound[] = {"GF_Ambient_Environment_Winter\GF_AEW_Sounds\Sounds\Wind\Animals_2.ogg", db0, 1.0};titles[] = {};};
+	class Animals_3{name = "Animals_3";sound[] = {"GF_Ambient_Environment_Winter\GF_AEW_Sounds\Sounds\Wind\Animals_3.ogg", db0, 1.0};titles[] = {};};
+	class Animals_4{name = "Animals_4";sound[] = {"GF_Ambient_Environment_Winter\GF_AEW_Sounds\Sounds\Wind\Animals_4.ogg", db0, 1.0};titles[] = {};};
+	class Animals_5{name = "Animals_5";sound[] = {"GF_Ambient_Environment_Winter\GF_AEW_Sounds\Sounds\Wind\Animals_5.ogg", db0, 1.0};titles[] = {};};
+	
+	
+	//__________________________	Birds_day	__________________________
+	
+	class Birds_day_1{name = "Birds_day_1";sound[] = {"GF_Ambient_Environment_Winter\GF_AEW_Sounds\Sounds\Birds_day\Birds_day_1.ogg", db0, 1.0};titles[] = {};};
+	class Birds_day_2{name = "Birds_day_2";sound[] = {"GF_Ambient_Environment_Winter\GF_AEW_Sounds\Sounds\Birds_day\Birds_day_2.ogg", db0, 1.0};titles[] = {};};
+	class Birds_day_3{name = "Birds_day_3";sound[] = {"GF_Ambient_Environment_Winter\GF_AEW_Sounds\Sounds\Birds_day\Birds_day_3.ogg", db0, 1.0};titles[] = {};};
+	class Birds_day_4{name = "Birds_day_4";sound[] = {"GF_Ambient_Environment_Winter\GF_AEW_Sounds\Sounds\Birds_day\Birds_day_4.ogg", db0, 1.0};titles[] = {};};
+	class Birds_day_5{name = "Birds_day_5";sound[] = {"GF_Ambient_Environment_Winter\GF_AEW_Sounds\Sounds\Birds_day\Birds_day_5.ogg", db0, 1.0};titles[] = {};};
+	class Birds_day_6{name = "Birds_day_6";sound[] = {"GF_Ambient_Environment_Winter\GF_AEW_Sounds\Sounds\Birds_day\Birds_day_6.ogg", db0, 1.0};titles[] = {};};
+	class Birds_day_7{name = "Birds_day_7";sound[] = {"GF_Ambient_Environment_Winter\GF_AEW_Sounds\Sounds\Birds_day\Birds_day_7.ogg", db0, 1.0};titles[] = {};};
+	class Birds_day_8{name = "Birds_day_8";sound[] = {"GF_Ambient_Environment_Winter\GF_AEW_Sounds\Sounds\Birds_day\Birds_day_8.ogg", db0, 1.0};titles[] = {};};
+	class Birds_day_9{name = "Birds_day_9";sound[] = {"GF_Ambient_Environment_Winter\GF_AEW_Sounds\Sounds\Birds_day\Birds_day_9.ogg", db0, 1.0};titles[] = {};};
+	class Birds_day_10{name = "Birds_day_10";sound[] = {"GF_Ambient_Environment_Winter\GF_AEW_Sounds\Sounds\Birds_day\Birds_day_10.ogg", db0, 1.0};titles[] = {};};
+	
+	
+	//__________________________	Birds_night	__________________________
+	
+	class Birds_night_1{name = "Birds_night_1";sound[] = {"GF_Ambient_Environment_Winter\GF_AEW_Sounds\Sounds\Birds_night\Birds_night_1.ogg", db0, 1.0};titles[] = {};};
+	class Birds_night_2{name = "Birds_night_2";sound[] = {"GF_Ambient_Environment_Winter\GF_AEW_Sounds\Sounds\Birds_night\Birds_night_2.ogg", db0, 1.0};titles[] = {};};
+	class Birds_night_3{name = "Birds_night_3";sound[] = {"GF_Ambient_Environment_Winter\GF_AEW_Sounds\Sounds\Birds_night\Birds_night_3.ogg", db0, 1.0};titles[] = {};};
+	class Birds_night_4{name = "Birds_night_4";sound[] = {"GF_Ambient_Environment_Winter\GF_AEW_Sounds\Sounds\Birds_night\Birds_night_4.ogg", db0, 1.0};titles[] = {};};
+	class Birds_night_5{name = "Birds_night_5";sound[] = {"GF_Ambient_Environment_Winter\GF_AEW_Sounds\Sounds\Birds_night\Birds_night_5.ogg", db0, 1.0};titles[] = {};};
+	class Birds_night_6{name = "Birds_night_6";sound[] = {"GF_Ambient_Environment_Winter\GF_AEW_Sounds\Sounds\Birds_night\Birds_night_6.ogg", db0, 1.0};titles[] = {};};
+	class Birds_night_7{name = "Birds_night_7";sound[] = {"GF_Ambient_Environment_Winter\GF_AEW_Sounds\Sounds\Birds_night\Birds_night_7.ogg", db0, 1.0};titles[] = {};};
+	class Birds_night_8{name = "Birds_night_8";sound[] = {"GF_Ambient_Environment_Winter\GF_AEW_Sounds\Sounds\Birds_night\Birds_night_8.ogg", db0, 1.0};titles[] = {};};
+	class Birds_night_9{name = "Birds_night_9";sound[] = {"GF_Ambient_Environment_Winter\GF_AEW_Sounds\Sounds\Birds_night\Birds_night_9.ogg", db0, 1.0};titles[] = {};};
+	class Birds_night_10{name = "Birds_night_10";sound[] = {"GF_Ambient_Environment_Winter\GF_AEW_Sounds\Sounds\Birds_night\Birds_night_10.ogg", db0, 1.0};titles[] = {};};
+	class Birds_night_11{name = "Birds_night_11";sound[] = {"GF_Ambient_Environment_Winter\GF_AEW_Sounds\Sounds\Birds_night\Birds_night_11.ogg", db0, 1.0};titles[] = {};};
+	class Birds_night_12{name = "Birds_night_12";sound[] = {"GF_Ambient_Environment_Winter\GF_AEW_Sounds\Sounds\Birds_night\Birds_night_12.ogg", db0, 1.0};titles[] = {};};
+	class Birds_night_13{name = "Birds_night_13";sound[] = {"GF_Ambient_Environment_Winter\GF_AEW_Sounds\Sounds\Birds_night\Birds_night_13.ogg", db0, 1.0};titles[] = {};};
+	class Birds_night_14{name = "Birds_night_14";sound[] = {"GF_Ambient_Environment_Winter\GF_AEW_Sounds\Sounds\Birds_night\Birds_night_14.ogg", db0, 1.0};titles[] = {};};
+	class Birds_night_15{name = "Birds_night_15";sound[] = {"GF_Ambient_Environment_Winter\GF_AEW_Sounds\Sounds\Birds_night\Birds_night_15.ogg", db0, 1.0};titles[] = {};};
+	class Birds_night_16{name = "Birds_night_16";sound[] = {"GF_Ambient_Environment_Winter\GF_AEW_Sounds\Sounds\Birds_night\Birds_night_16.ogg", db0, 1.0};titles[] = {};};
+	class Birds_night_17{name = "Birds_night_17";sound[] = {"GF_Ambient_Environment_Winter\GF_AEW_Sounds\Sounds\Birds_night\Birds_night_17.ogg", db0, 1.0};titles[] = {};};
+	class Birds_night_18{name = "Birds_night_18";sound[] = {"GF_Ambient_Environment_Winter\GF_AEW_Sounds\Sounds\Birds_night\Birds_night_18.ogg", db0, 1.0};titles[] = {};};
+	class Birds_night_19{name = "Birds_night_19";sound[] = {"GF_Ambient_Environment_Winter\GF_AEW_Sounds\Sounds\Birds_night\Birds_night_19.ogg", db0, 1.0};titles[] = {};};
+	class Birds_night_20{name = "Birds_night_20";sound[] = {"GF_Ambient_Environment_Winter\GF_AEW_Sounds\Sounds\Birds_night\Birds_night_20.ogg", db0, 1.0};titles[] = {};};
+	class Birds_night_21{name = "Birds_night_21";sound[] = {"GF_Ambient_Environment_Winter\GF_AEW_Sounds\Sounds\Birds_night\Birds_night_21.ogg", db0, 1.0};titles[] = {};};
+	class Birds_night_22{name = "Birds_night_22";sound[] = {"GF_Ambient_Environment_Winter\GF_AEW_Sounds\Sounds\Birds_night\Birds_night_22.ogg", db0, 1.0};titles[] = {};};
+	
+	
+	//__________________________	Man	__________________________
+	
+	class Man_1{name = "Man_1";sound[] = {"GF_Ambient_Environment_Winter\GF_AEW_Sounds\Sounds\Man\Man_1.ogg", db0, 1.0};titles[] = {};};
+	class Man_2{name = "Man_2";sound[] = {"GF_Ambient_Environment_Winter\GF_AEW_Sounds\Sounds\Man\Man_2.ogg", db0, 1.0};titles[] = {};};
+	class Man_3{name = "Man_3";sound[] = {"GF_Ambient_Environment_Winter\GF_AEW_Sounds\Sounds\Man\Man_3.ogg", db0, 1.0};titles[] = {};};
+	class Man_4{name = "Man_4";sound[] = {"GF_Ambient_Environment_Winter\GF_AEW_Sounds\Sounds\Man\Man_4.ogg", db0, 1.0};titles[] = {};};
+	class Man_5{name = "Man_5";sound[] = {"GF_Ambient_Environment_Winter\GF_AEW_Sounds\Sounds\Man\Man_5.ogg", db0, 1.0};titles[] = {};};
+	
+
+	//__________________________	SFX_Forest	__________________________
+	
+	class Wood_1{name = "Wood_1";sound[] = {"GF_Ambient_Environment_Winter\GF_AEW_Sounds\Sounds\SFX_Forest\Wood_1.ogg", db-10, 1.0};titles[] = {};};
+	class Wood_2{name = "Wood_2";sound[] = {"GF_Ambient_Environment_Winter\GF_AEW_Sounds\Sounds\SFX_Forest\Wood_2.ogg", db-10, 1.0};titles[] = {};};
+	class Wood_3{name = "Wood_3";sound[] = {"GF_Ambient_Environment_Winter\GF_AEW_Sounds\Sounds\SFX_Forest\Wood_3.ogg", db-10, 1.0};titles[] = {};};
+	class Wood_4{name = "Wood_4";sound[] = {"GF_Ambient_Environment_Winter\GF_AEW_Sounds\Sounds\SFX_Forest\Wood_4.ogg", db-10, 1.0};titles[] = {};};
+	class Wood_5{name = "Wood_5";sound[] = {"GF_Ambient_Environment_Winter\GF_AEW_Sounds\Sounds\SFX_Forest\Wood_5.ogg", db-10, 1.0};titles[] = {};};
+	class Wood_6{name = "Wood_6";sound[] = {"GF_Ambient_Environment_Winter\GF_AEW_Sounds\Sounds\SFX_Forest\Wood_6.ogg", db-10, 1.0};titles[] = {};};
+	class Wood_7{name = "Wood_7";sound[] = {"GF_Ambient_Environment_Winter\GF_AEW_Sounds\Sounds\SFX_Forest\Wood_7.ogg", db-10, 1.0};titles[] = {};};
+
+	
+	//__________________________	Wind	__________________________
+	
+	class Wind_1{name = "Wind_1";sound[] = {"GF_Ambient_Environment_Winter\GF_AEW_Sounds\Sounds\Wind\Wind_1.ogg", db0, 1.0};titles[] = {};};
+	class Wind_2{name = "Wind_2";sound[] = {"GF_Ambient_Environment_Winter\GF_AEW_Sounds\Sounds\Wind\Wind_2.ogg", db0, 1.0};titles[] = {};};
+	class Wind_3{name = "Wind_3";sound[] = {"GF_Ambient_Environment_Winter\GF_AEW_Sounds\Sounds\Wind\Wind_3.ogg", db0, 1.0};titles[] = {};};
+	class Wind_4{name = "Wind_4";sound[] = {"GF_Ambient_Environment_Winter\GF_AEW_Sounds\Sounds\Wind\Wind_4.ogg", db0, 1.0};titles[] = {};};
+	class Wind_5{name = "Wind_5";sound[] = {"GF_Ambient_Environment_Winter\GF_AEW_Sounds\Sounds\Wind\Wind_5.ogg", db0, 1.0};titles[] = {};};
+	class Wind_6{name = "Wind_6";sound[] = {"GF_Ambient_Environment_Winter\GF_AEW_Sounds\Sounds\Wind\Wind_6.ogg", db0, 1.0};titles[] = {};};
+	
+	
+	//__________________________	Wind_Loop	__________________________
+	
+	class Wind_Loop_1{name = "Wind_Loop_1";sound[] = {"GF_Ambient_Environment_Winter\GF_AEW_Sounds\Sounds\Wind\Wind_Loop_1.ogg", db0, 1.0};titles[] = {};};
+	
+	
+	//__________________________	Weather	__________________________
+	
+	class Overcast_0_to_4{name = "Overcast_0_to_4";sound[] = {"GF_Ambient_Environment_Winter\GF_AEW_Sounds\Sounds\Weather\Overcast_0_to_4.ogg", db0, 1.0};titles[] = {};};
+	class Overcast_4_to_6{name = "Overcast_4_to_6";sound[] = {"GF_Ambient_Environment_Winter\GF_AEW_Sounds\Sounds\Weather\Overcast_4_to_6.ogg", db0, 1.0};titles[] = {};};
+	class Overcast_6_to_8{name = "Overcast_6_to_8";sound[] = {"GF_Ambient_Environment_Winter\GF_AEW_Sounds\Sounds\Weather\Overcast_6_to_8.ogg", db0, 1.0};titles[] = {};};
+		
+	
+};	
+
+///////______ HERO MONEY REWARDS_______/////
+
+	
+	//__________________________ GF Ravage Heros Money Reward __________________________
+	
+	class Notification_1{name = "Notification_1";sound[] = {"GF_Ravage_Heros_Money_Reward\Sounds\Notification_1.ogg", db-5, 1.0};titles[] = {};};
+};	
+
+
+///////////////////////////////////////////////////////////////////////////////
