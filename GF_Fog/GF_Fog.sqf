@@ -469,7 +469,7 @@ null = {_x spawn GF_Fog_Type_1;}forEach [GF_Fog_1,GF_Fog_2];
 			((alive player))
 			&& (!isNull player)
 			&& (!(underwater player) or ((getPosASLW player select 2) > -1.5))
-			&& diag_fps > GF_Fog_FPS_Limit	
+			&& diag_fps > gf_fog_fps_limit
 			&& (!(player getVariable ["Var_GF_Fog",false]))
 			) then {
 			

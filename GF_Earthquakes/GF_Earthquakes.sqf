@@ -25,10 +25,10 @@ waituntil{GF_EQ_Distance_Check_Loaded};
 GF_EQ_Systemchat_info					= true;		
 GF_EQ_diag_log_info						= true;
 
-GF_EQ_Loop								= 600;		//	How much time to wait for the next earthquake
-GF_EQ_Loop_random						= 2700;		//	+ random
+GF_EQ_Loop								= 500;		//	How much time to wait for the next earthquake
+GF_EQ_Loop_random						= 1500;		//	+ random
 GF_EQ_Destructive_Radius				= 500;		//	Set here the radious
-GF_EQ_Destructive_Radius_random			= 1500;		//	+ random
+GF_EQ_Destructive_Radius_random			= 700;		//	+ random
 
 GF_EQ_Blacklist_Zone_distance			= 1000;		//	Add here the distance from the Blacklist Zones
 

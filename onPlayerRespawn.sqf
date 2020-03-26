@@ -13,3 +13,10 @@ _unit spawn
   _unit addEventHandler ["Fired", {_this spawn RVG_fnc_Fired}];
 
 };  
+
+
+
+///////////////////////_3RD_PERSON_CAM_VEH/////////////////
+
+
+///////////////////////////////

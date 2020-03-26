@@ -132,14 +132,6 @@ class CfgSounds
 		
 	
 };	
-
-///////______ HERO MONEY REWARDS_______/////
-
-	
-	//__________________________ GF Ravage Heros Money Reward __________________________
-	
-	class Notification_1{name = "Notification_1";sound[] = {"GF_Ravage_Heros_Money_Reward\Sounds\Notification_1.ogg", db-5, 1.0};titles[] = {};};
-};	
-
-
-///////////////////////////////////////////////////////////////////////////////
+ ///////////////////////////////////////////////////////////
+ 
+ 
